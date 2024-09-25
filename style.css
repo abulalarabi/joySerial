@@ -1,0 +1,75 @@
+.axes {
+    padding: 1em;
+}
+
+.buttons {
+    margin-left: 1em;
+}
+
+.axisItem {
+    display: inline-block;
+    align-items: center;
+}
+
+/*meter*/.axis {
+    min-width: 200px;
+    padding-left: 5px;
+    height: 30px;
+    margin: 0px;
+}
+.axisLabel{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid #2196F3;
+    color: #2196F3;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 15px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pressed {
+    background-color: #21f352;
+    border: 2px solid red;
+    color: #FFFFFF;
+}
+
+.container {
+    break-before: always;
+    width: 40vw;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    overflow-y: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+  
